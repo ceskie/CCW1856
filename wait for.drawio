@@ -1,80 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T08:39:20.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="tdCQvpwmZ1fTMpy348ZN" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T08:43:39.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="HGeoPORA362Ny3cHpPl9" version="24.2.7" type="github">
   <diagram name="Page-1" id="dqgGaEMsfPLpN1jPL7-l">
-    <mxGraphModel dx="2643" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-1" value="sys_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="640" width="160" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-1">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-1">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-5" value="sys_event" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="820" width="160" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-5">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-5">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-5">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-9" value="x_att2_avcp_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="640" width="160" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-10" value="u_table: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-9">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-11" value="u_record: String (sys_id)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-9">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-12" value="u_active: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-9">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-17" value="Flow" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="330" width="170" height="710" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-17" source="lHSy6ZFqvvYhpSyqBEna-18" target="lHSy6ZFqvvYhpSyqBEna-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-18" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="60" y="50" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="60" y="570" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-20" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="60" y="170" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-27" value="Out of the box &quot;Wait for {x} time&quot;" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="330" width="270" height="710" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-29" value="Trigger wrapper" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="330" width="280" height="710" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-30" value="External system" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="330" width="280" height="710" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-13" value="External system" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-30">
-          <mxGeometry x="90" y="80" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-15" value="POST&lt;br&gt;Table API" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-30">
-          <mxGeometry x="115" y="286" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem statement&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;&quot;Wait for a duration&quot; is very frequent in AVCP flows. This design has negative performance implications (degradation of instance performance esp. when Waits are repeated) and also business implications (wait times longer than necessary delaying critical operations).&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem statement&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;&quot;&lt;i&gt;Wait for a duration&lt;/i&gt;&quot; is frequently used not just in &lt;i&gt;AVCP &lt;/i&gt;flows. This design has negative performance implications (degradation of instance performance esp. when waits are repeated) and also business implications (wait times longer than necessary delaying critical operations).&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-1160" width="650" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-33" value="Decision table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-20" width="650" height="270" as="geometry" />
+          <mxGeometry x="-70" y="40" width="650" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-33">
           <mxGeometry y="30" width="650" height="100" as="geometry" />
@@ -115,7 +49,7 @@
             <mxRectangle width="325" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-66" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;How &quot;Wait for a duration&quot; works&lt;/font&gt;&lt;/b&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-66" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;How &lt;i&gt;&quot;Wait for a duration&quot;&lt;/i&gt; works&lt;/font&gt;&lt;/b&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-1050" width="650" height="830" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-49" target="lHSy6ZFqvvYhpSyqBEna-50">
@@ -127,13 +61,13 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-50" target="lHSy6ZFqvvYhpSyqBEna-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-50" value="Wait for a duration" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-50" value="&lt;i&gt;Wait for a duration&lt;/i&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="230" y="150" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-55" target="lHSy6ZFqvvYhpSyqBEna-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-55" value="Insert record in &lt;br&gt;sys_trigger table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-55" value="Insert record in &lt;br&gt;&lt;i&gt;sys_trigger&lt;/i&gt; table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="195" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-57" value="sys_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
@@ -148,13 +82,13 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-60" value="Next Action: &lt;i&gt;Now + the duration&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-57">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-63" value="When datetime=Next Action, processor wakes up and checks for any sys_trigger due for processing" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontSize=11;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-63" value="When datetime=&lt;i&gt;Next Action&lt;/i&gt;, processor wakes up and checks for any &lt;i&gt;sys_trigger &lt;/i&gt;due for processing" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontSize=11;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="195" y="365" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-65" target="lHSy6ZFqvvYhpSyqBEna-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-65" value="Insert record in&lt;br&gt;sysevent table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-65" value="Insert record in&lt;br&gt;&lt;i&gt;sysevent &lt;/i&gt;table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="195" y="490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-63" target="lHSy6ZFqvvYhpSyqBEna-65">
@@ -190,7 +124,7 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-103" value="Conditions &lt;br&gt;are met" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-80" target="lHSy6ZFqvvYhpSyqBEna-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-80" value="Flow Engine Event Handler (sys_trigger) ticks and processes the event (restarts the Flow context)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-80" value="&lt;i&gt;Flow Engine Event Handler&lt;/i&gt; (sys_trigger) ticks and processes the event (restarts the Flow context)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="195" y="610" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-84" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-80" target="lHSy6ZFqvvYhpSyqBEna-57">
@@ -221,7 +155,7 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-101" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="40" y="625" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-107" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;&quot;Wait for a duration&quot; is very frequent in AVCP flows. This design has negative performance implications (degradation of instance performance esp. when Waits are repeated) and also business implications (wait times longer than necessary delaying critical operations).&lt;br&gt;&lt;/p&gt;&lt;div&gt;Action items:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;once Flow is deployed to PROD, c heck sys_trigger table for repeatitive Wait for a duration and adjust if necessary&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-107" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;Optimize the usage of &quot;Wait for a duration&quot; following the decision table. Actions below are to be considered/revisited once we reach PROD and/or the volume of processed orders grows significantly.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;b&gt;Action items:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;once Flow is deployed to PROD, search sys_trigger table for repeatitive &lt;i&gt;Wait for a duration&lt;/i&gt; and adjust if necessary&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-210" width="650" height="180" as="geometry" />
         </mxCell>
       </root>
