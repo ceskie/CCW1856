@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T10:59:38.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="QDuMuYSWXBS3hKmlbRgp" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T13:08:58.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="nGnz29lbLZ_jI4Yvmo6X" version="24.2.7" type="github">
   <diagram name="Page-1" id="dqgGaEMsfPLpN1jPL7-l">
     <mxGraphModel dx="2097" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-107" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;Optimize the usage of &quot;Wait for a duration&quot; following the decision table below.&lt;br&gt;Actions items are to be considered once we reach PROD and/or the volume of processed orders grows significantly.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;b&gt;Action items:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;once Flow is deployed to PROD, search sys_trigger table for repeatitive &lt;i&gt;Wait for a duration&lt;/i&gt; and adjust if necessary&lt;/li&gt;&lt;li&gt;based on AVCP flow.fire event volume, consider bulking (caching) these events. E.g. instead of submitting N wait for 2 minutes, submit single &lt;i&gt;x_att2_avcp_wait&amp;nbsp; &lt;/i&gt;record for 5 minutes for all N events:&lt;br&gt;- create custom table &lt;i&gt;x_att2_avcp_wait &lt;/i&gt;(fields Created, Next Action, Status=Ready/Processed)&lt;br&gt;- create custom flow action to query nearest existing or insert new &lt;i&gt;x_att2_avcp_wait &lt;/i&gt;record&lt;br&gt;- create custom Scheduled Job to run over &lt;i&gt;x_att2_avcp_wait &lt;/i&gt;table and set status to Processed &lt;i&gt;&lt;br&gt;- &lt;/i&gt;in Flows, Wait for queried/inserted trigger status change&lt;i&gt; &lt;/i&gt;(condition) instead of Wait for a duration&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-210" width="650" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-108" value="author: rs126k | for purposes of AVCP development in attcomm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="370" width="650" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
