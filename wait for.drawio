@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T08:43:39.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="HGeoPORA362Ny3cHpPl9" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T08:48:26.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="bZXNvaDHyXzCPbnSmDh9" version="24.2.7" type="github">
   <diagram name="Page-1" id="dqgGaEMsfPLpN1jPL7-l">
     <mxGraphModel dx="2097" dy="2824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="-60" y="-1160" width="650" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-33" value="Decision table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=13;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-70" y="40" width="650" height="270" as="geometry" />
+          <mxGeometry x="-60" y="120" width="650" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-33">
           <mxGeometry y="30" width="650" height="100" as="geometry" />
@@ -155,8 +155,8 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-101" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
           <mxGeometry x="40" y="625" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-107" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;Optimize the usage of &quot;Wait for a duration&quot; following the decision table. Actions below are to be considered/revisited once we reach PROD and/or the volume of processed orders grows significantly.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;b&gt;Action items:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;once Flow is deployed to PROD, search sys_trigger table for repeatitive &lt;i&gt;Wait for a duration&lt;/i&gt; and adjust if necessary&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-210" width="650" height="180" as="geometry" />
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-107" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;Optimize the usage of &quot;Wait for a duration&quot; following the decision table. Actions below are to be considered/revisited once we reach PROD and/or the volume of processed orders grows significantly.&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;b&gt;Action items:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;once Flow is deployed to PROD, search sys_trigger table for repeatitive &lt;i&gt;Wait for a duration&lt;/i&gt; and adjust if necessary&lt;/li&gt;&lt;li&gt;based on AVCP flow.fire event volume, consider bulking (caching) these events:&lt;br&gt;- create custom table x_att2_avcp_trigger&lt;br&gt;- create custom flow action&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-210" width="650" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
