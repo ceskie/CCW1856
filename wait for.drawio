@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T13:43:13.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="a3MmcT_5iN4BToH2RtBy" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T07:19:23.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="87ebDsYrX70eBJZCjDlM" version="24.2.7" type="github">
   <diagram name="Page-1" id="dqgGaEMsfPLpN1jPL7-l">
-    <mxGraphModel dx="2284" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,19 +41,19 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-17" value="Flow" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="40" width="220" height="710" as="geometry" />
+          <mxGeometry x="-60" y="40" width="170" height="710" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-17" source="lHSy6ZFqvvYhpSyqBEna-18" target="lHSy6ZFqvvYhpSyqBEna-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-18" value="Start" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="85" y="50" width="50" height="50" as="geometry" />
+          <mxGeometry x="60" y="50" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-19" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="85" y="570" width="50" height="50" as="geometry" />
+          <mxGeometry x="60" y="570" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-20" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-17">
-          <mxGeometry x="85" y="170" width="50" height="50" as="geometry" />
+          <mxGeometry x="60" y="170" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-27" value="Out of the box &quot;Wait for {x} time&quot;" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="40" width="270" height="710" as="geometry" />
@@ -69,6 +69,12 @@
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-15" value="POST&lt;br&gt;Table API" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-30">
           <mxGeometry x="115" y="286" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem statement&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&quot;Wait for {n} minutes&quot; is very frequent in AVCP flows. This design has negative performance implications towards the instance (performance waste) and also business (wait times longer than necessary).&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-150" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Proposed solution&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-150" width="490" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
