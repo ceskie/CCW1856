@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-04-23T07:34:09.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="AmV-IfTvj16sah1NcQqN" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-23T08:17:55.678Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="lu72_hekT0OnZSEXbIfI" version="24.2.7" type="github">
   <diagram name="Page-1" id="dqgGaEMsfPLpN1jPL7-l">
-    <mxGraphModel dx="2284" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1260" dy="2823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-1" value="sys_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="350" width="160" height="104" as="geometry" />
+          <mxGeometry x="160" y="450" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-5" value="sys_event" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="530" width="160" height="104" as="geometry" />
+          <mxGeometry x="160" y="630" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-5">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-9" value="x_att2_avcp_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="350" width="160" height="104" as="geometry" />
+          <mxGeometry x="460" y="450" width="160" height="104" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-10" value="u_table: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-9">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry y="78" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-17" value="Flow" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="40" width="170" height="710" as="geometry" />
+          <mxGeometry x="-60" y="140" width="170" height="710" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-17" source="lHSy6ZFqvvYhpSyqBEna-18" target="lHSy6ZFqvvYhpSyqBEna-20">
           <mxGeometry relative="1" as="geometry" />
@@ -56,13 +56,13 @@
           <mxGeometry x="60" y="170" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-27" value="Out of the box &quot;Wait for {x} time&quot;" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="40" width="270" height="710" as="geometry" />
+          <mxGeometry x="110" y="140" width="270" height="710" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-29" value="Trigger wrapper" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="40" width="280" height="710" as="geometry" />
+          <mxGeometry x="380" y="140" width="280" height="710" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-30" value="External system" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="40" width="280" height="710" as="geometry" />
+          <mxGeometry x="660" y="140" width="280" height="710" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-13" value="External system" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-30">
           <mxGeometry x="90" y="80" width="100" height="100" as="geometry" />
@@ -70,50 +70,140 @@
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-15" value="POST&lt;br&gt;Table API" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-30">
           <mxGeometry x="115" y="286" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lHSy6ZFqvvYhpSyqBEna-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem statement&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&quot;Wait for a duration&quot; is very frequent in AVCP flows. This design has negative performance implications towards the instance (performance waste) and also business (wait times longer than necessary).&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-450" width="490" height="120" as="geometry" />
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Problem statement&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&quot;Wait for a duration&quot; is very frequent in AVCP flows. This design has negative performance implications towards the instance (performance degradation) and also business (wait times longer than necessary).&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-1180" width="890" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-33" value="Decision table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-290" width="1000" height="270" as="geometry" />
+          <mxGeometry x="-60" y="-170" width="890" height="270" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-33">
-          <mxGeometry y="30" width="1000" height="100" as="geometry" />
+          <mxGeometry y="30" width="890" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-35" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;conditions are known but it is simpler to use &quot;Wait for time&quot;&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-34">
-          <mxGeometry width="500" height="100" as="geometry">
-            <mxRectangle width="500" height="100" as="alternateBounds" />
+          <mxGeometry width="445" height="100" as="geometry">
+            <mxRectangle width="445" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-36" value="&lt;div style=&quot;font-size: 12px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;incorrect - use&lt;i&gt; Wait for condition&lt;/i&gt; instead, you can often:&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot; align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;split the flow into two flows&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;use flag field (timestamp, boolean) and custom logic to update it when conditions are met&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;...&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-34">
-          <mxGeometry x="500" width="500" height="100" as="geometry">
-            <mxRectangle width="500" height="100" as="alternateBounds" />
+          <mxGeometry x="445" width="445" height="100" as="geometry">
+            <mxRectangle width="445" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-33">
-          <mxGeometry y="130" width="1000" height="100" as="geometry" />
+          <mxGeometry y="130" width="890" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-39" value="&lt;div style=&quot;font-size: 12px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;conditions are known but very complex&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-38">
-          <mxGeometry width="500" height="100" as="geometry">
-            <mxRectangle width="500" height="100" as="alternateBounds" />
+          <mxGeometry width="445" height="100" as="geometry">
+            <mxRectangle width="445" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-40" value="&lt;div style=&quot;font-size: 12px;&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;weight the pros and cons:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot; align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;if operation to check for conditions is more expensive and is not business critical to wait longer than necessary, use &lt;i&gt;Wait for a duration&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;else, &lt;br&gt;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-38">
-          <mxGeometry x="500" width="500" height="100" as="geometry">
-            <mxRectangle width="500" height="100" as="alternateBounds" />
+          <mxGeometry x="445" width="445" height="100" as="geometry">
+            <mxRectangle width="445" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-42" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-33">
-          <mxGeometry y="230" width="1000" height="40" as="geometry" />
+          <mxGeometry y="230" width="890" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-43" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;conditions are unknown&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-42">
-          <mxGeometry width="500" height="40" as="geometry">
-            <mxRectangle width="500" height="40" as="alternateBounds" />
+          <mxGeometry width="445" height="40" as="geometry">
+            <mxRectangle width="445" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lHSy6ZFqvvYhpSyqBEna-44" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-42">
-          <mxGeometry x="500" width="500" height="40" as="geometry">
-            <mxRectangle width="500" height="40" as="alternateBounds" />
+          <mxGeometry x="445" width="445" height="40" as="geometry">
+            <mxRectangle width="445" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-48" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;How &quot;Wait for a duration&quot; works&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-1080" width="890" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-66" value="Flow" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-1000" width="890" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-49" target="lHSy6ZFqvvYhpSyqBEna-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-49" value="Trigger flow" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="75" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-50" target="lHSy6ZFqvvYhpSyqBEna-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-50" value="Wait for a duration" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=timer;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="75" y="140" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-55" target="lHSy6ZFqvvYhpSyqBEna-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-55" value="Insert record in &lt;br&gt;sys_trigger table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="40" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-57" value="sys_trigger" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="230" y="228" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-58" value="Name: flow.fire" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-57">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-59" value="State: Ready" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-57">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-60" value="Next Action: &lt;i&gt;Now + the duration&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-57">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-63" value="Wait for Next Action" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="40" y="355" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-65" target="lHSy6ZFqvvYhpSyqBEna-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-65" value="Insert record in&lt;br&gt;sysevent table" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="40" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-63" target="lHSy6ZFqvvYhpSyqBEna-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-71" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;entryX=0.691;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-55" target="lHSy6ZFqvvYhpSyqBEna-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="470" as="sourcePoint" />
+            <mxPoint x="400" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-72" value="&lt;div align=&quot;left&quot;&gt;Node processor wakes up and checks for any sys_trigger records due for processing&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="230" y="370" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-73" value="sysevent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="230" y="468" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-74" value="Name: flow.fire" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-73">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-75" value="Queue: flow_engine" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-73">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-87" value="Parm1: flow name and block" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-73">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-76" value="Parm1: contains flow and flow step params" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-73">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-80" target="lHSy6ZFqvvYhpSyqBEna-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-80" value="Flow Engine Event Handler (sys_trigger) ticks and processes the event (restarts the Flow context)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="40" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-84" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lHSy6ZFqvvYhpSyqBEna-66" source="lHSy6ZFqvvYhpSyqBEna-80" target="lHSy6ZFqvvYhpSyqBEna-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="660" as="sourcePoint" />
+            <mxPoint x="370" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lHSy6ZFqvvYhpSyqBEna-85" value="End" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="lHSy6ZFqvvYhpSyqBEna-66">
+          <mxGeometry x="75" y="720" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
