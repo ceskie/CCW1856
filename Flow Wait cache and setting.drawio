@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T12:52:16.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="AvUzzAcOl2mrK_9SIO3Y" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T13:02:37.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="5q8UBgHLO3c1fF72wWq8" version="24.2.7" type="github">
   <diagram name="Page-1" id="ugHfYF7AokP7zmJMkbcg">
-    <mxGraphModel dx="2284" dy="2918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="2875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,7 +160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="h0dKhIlAHf1Iq-TdoCg7-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Benefits of proposed flow action&lt;br&gt;&lt;/h1&gt;- Flow action wait times are stored in single place --&amp;gt; easy fine tuning (not needed to modify flows and release app version through all environments)&lt;br&gt;&lt;div&gt;- Wait for durations are cached and bulk executed --&amp;gt; performance gain&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Key takeaway - instead of many flows waiting for many scheduled times, many flows are waiting for change of single timer instance record&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="h0dKhIlAHf1Iq-TdoCg7-17" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Benefits of proposed flow action&lt;br&gt;&lt;/h1&gt;- Flow action wait times are stored in single place --&amp;gt; easy fine tuning (not needed to modify flows and release app version through all environments)&lt;br&gt;&lt;div&gt;- Wait for durations are cached and bulk executed --&amp;gt; performance gain&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Key takeaway - instead of many flows waiting for many different scheduled times, many flows are waiting for change of single timer instance record, with configurable registry&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-840" y="-1200" width="620" height="140" as="geometry" />
         </mxCell>
         <mxCell id="h0dKhIlAHf1Iq-TdoCg7-43" value="TimerController &lt;span style=&quot;font-weight: normal;&quot;&gt;(Script include class)&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
