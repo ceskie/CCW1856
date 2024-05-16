@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T11:46:16.026Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="9zhopu5XZ4qqp7Vv1QMU" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T11:48:57.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="RGdPvTns0TJKEn7sSpPO" version="24.4.0" type="github">
   <diagram name="Page-1" id="4HtnsJomPUPoYvEETrM_">
     <mxGraphModel dx="1434" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,13 +22,13 @@
             <mxPoint x="40" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-104" value="Install app" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-1">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-104" value="Install app&lt;br&gt;(standard + hotfix versions)" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;strokeWidth=3;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-1">
           <mxGeometry x="820" y="139" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V0vQfRZMaYZnipPnh3vN-3" value="attcommhotfix" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=0;swimlaneLine=1;swimlaneFillColor=#ffffff;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="50" y="929" width="910" height="241" as="geometry" />
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-5" value="Install app" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-5" value="Install app&lt;br&gt;(standard version)" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;strokeWidth=3;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
           <mxGeometry x="104" y="-106" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V0vQfRZMaYZnipPnh3vN-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="V0vQfRZMaYZnipPnh3vN-3" source="V0vQfRZMaYZnipPnh3vN-6" target="V0vQfRZMaYZnipPnh3vN-18">
@@ -58,7 +58,7 @@
         <mxCell id="V0vQfRZMaYZnipPnh3vN-87" value="Merge fix (branch) into development" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
           <mxGeometry x="580" y="35" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-85" value="Code repository&lt;br&gt;(0.2.96 + 0.2.94.1)" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-85" value="Code repository" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
           <mxGeometry x="820" y="46" width="50" height="58" as="geometry" />
         </mxCell>
         <mxCell id="V0vQfRZMaYZnipPnh3vN-56" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
@@ -67,7 +67,7 @@
         <mxCell id="V0vQfRZMaYZnipPnh3vN-98" value="" style="shape=mxgraph.bpmn.data;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;size=15;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="V0vQfRZMaYZnipPnh3vN-3">
           <mxGeometry x="621" y="151" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-124" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="V0vQfRZMaYZnipPnh3vN-3" source="V0vQfRZMaYZnipPnh3vN-87" target="V0vQfRZMaYZnipPnh3vN-85">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-124" value="0.2.94.1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="V0vQfRZMaYZnipPnh3vN-3" source="V0vQfRZMaYZnipPnh3vN-87" target="V0vQfRZMaYZnipPnh3vN-85">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-160" y="181" as="sourcePoint" />
             <mxPoint y="181" as="targetPoint" />
@@ -170,7 +170,7 @@
         <mxCell id="V0vQfRZMaYZnipPnh3vN-40" value="Publish app" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
           <mxGeometry x="474" y="979" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-41" value="0.2.94.1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.105;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-41" value="0.2.94.1&lt;br&gt;(hotfix release)" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.105;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.75" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="454" y="1170" as="sourcePoint" />
             <mxPoint x="457.0999999999999" y="691.9200000000001" as="targetPoint" />
@@ -210,7 +210,7 @@
             <mxPoint x="50" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V0vQfRZMaYZnipPnh3vN-123" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1" source="V0vQfRZMaYZnipPnh3vN-89" target="V0vQfRZMaYZnipPnh3vN-85">
+        <mxCell id="V0vQfRZMaYZnipPnh3vN-123" value="0.2.96" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" edge="1" parent="1" source="V0vQfRZMaYZnipPnh3vN-89" target="V0vQfRZMaYZnipPnh3vN-85">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-90" y="1180" as="sourcePoint" />
             <mxPoint x="1050" y="1160" as="targetPoint" />
