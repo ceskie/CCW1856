@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T12:08:11.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="bkYa9UYi1u7ePYDagSxJ" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T12:08:35.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="VY7q3TvhiHrTYUk47OTc" version="24.4.4" type="github">
   <diagram name="Page-1" id="py6KdPY4mDcN0l5CrXU8">
     <mxGraphModel dx="1434" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
           <mxGeometry x="385" y="870" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-8" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Prerequisites&lt;/b&gt;&lt;/p&gt;1. AOD write (or admin) access &lt;a href=&quot;https://aod.web.att.com/browse/STH/ST_ACVP&quot;&gt;https://aod.web.att.com/browse/STH/ST_ACVP&lt;br&gt;&lt;/a&gt;2. ITSERVICES account to access code repository &lt;a href=&quot;https://codecloud.web.att.com/projects/ST_ACVP/repos/acvp_repository/browse&quot;&gt;https://codecloud.web.att.com/projects/ST_ACVP/repos/acvp_repository/browse&lt;br&gt;&lt;/a&gt;3. basic understanding of git and access to git CLI or GUI (local admin or oracle VM with admin)&lt;br&gt;&lt;div&gt;4. knowledge about code changes in AVCP (to be able to resolve conflictsbetween dev and hotfix).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Process&lt;/b&gt;&lt;br&gt;&lt;p class=&quot;MsoNormal&quot;&gt;After fix is ready for deployment (app version from attcommhotfix&lt;br&gt;is built and tested) we need to include the developed fix “down” into the dev instance (otherwise if the version from dev instance was installed in PROD, the fix would be overwritten).&lt;/p&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="275" y="-280" width="365" height="280" as="geometry" />
+          <mxGeometry x="280" y="-60" width="500" height="250" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-37" value="&amp;nbsp;Code cloud web interface" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="800" y="205" width="180" height="25" as="geometry" />
