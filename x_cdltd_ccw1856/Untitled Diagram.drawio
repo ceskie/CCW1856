@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T11:32:19.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="6e-og_2BO7yAiCM6o7Ec" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T12:08:11.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="bkYa9UYi1u7ePYDagSxJ" version="24.4.4" type="github">
   <diagram name="Page-1" id="py6KdPY4mDcN0l5CrXU8">
     <mxGraphModel dx="1434" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-1" value="&lt;b&gt;Merge and apply hotfix into dev1&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;startSize=20;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=2;swimlaneFillColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="205" width="500" height="1005" as="geometry" />
+          <mxGeometry x="280" y="205" width="500" height="965" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-2" target="YNk4ufjbY3-n3ogbdyWw-3">
           <mxGeometry relative="1" as="geometry" />
@@ -44,7 +44,7 @@
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-11" target="YNk4ufjbY3-n3ogbdyWw-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="85" y="689" />
+              <mxPoint x="85" y="645" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -65,34 +65,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-23" value="Merge" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="350" y="649" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="605" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-26" target="YNk4ufjbY3-n3ogbdyWw-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-26" value="Stash local changes&lt;br&gt;(attcommdev1)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="350" y="779" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="735" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-28" target="YNk4ufjbY3-n3ogbdyWw-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-28" value="Apply remote changes&lt;br&gt;(attcommdev1)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="190" y="779" width="120" height="80" as="geometry" />
+          <mxGeometry x="190" y="735" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-30" target="YNk4ufjbY3-n3ogbdyWw-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-30" value="Apply stashed changes &lt;br&gt;(attcommdev1)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="25" y="779" width="120" height="80" as="geometry" />
+          <mxGeometry x="25" y="735" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YNk4ufjbY3-n3ogbdyWw-1" source="YNk4ufjbY3-n3ogbdyWw-32" target="YNk4ufjbY3-n3ogbdyWw-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-32" value="Resolve conflicts&lt;br&gt;(stashed XMLs vs&lt;br&gt;dev1 instance)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="25" y="899" width="120" height="80" as="geometry" />
+          <mxGeometry x="25" y="855" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-35" value="hotfix is merged in dev1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate;" vertex="1" parent="YNk4ufjbY3-n3ogbdyWw-1">
-          <mxGeometry x="385" y="914" width="50" height="50" as="geometry" />
+          <mxGeometry x="385" y="870" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YNk4ufjbY3-n3ogbdyWw-8" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;Prerequisites&lt;/b&gt;&lt;/p&gt;1. AOD write (or admin) access &lt;a href=&quot;https://aod.web.att.com/browse/STH/ST_ACVP&quot;&gt;https://aod.web.att.com/browse/STH/ST_ACVP&lt;br&gt;&lt;/a&gt;2. ITSERVICES account to access code repository &lt;a href=&quot;https://codecloud.web.att.com/projects/ST_ACVP/repos/acvp_repository/browse&quot;&gt;https://codecloud.web.att.com/projects/ST_ACVP/repos/acvp_repository/browse&lt;br&gt;&lt;/a&gt;3. basic understanding of git and access to git CLI or GUI (local admin or oracle VM with admin)&lt;br&gt;&lt;div&gt;4. knowledge about code changes in AVCP (to be able to resolve conflictsbetween dev and hotfix).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;Process&lt;/b&gt;&lt;br&gt;&lt;p class=&quot;MsoNormal&quot;&gt;After fix is ready for deployment (app version from attcommhotfix&lt;br&gt;is built and tested) we need to include the developed fix “down” into the dev instance (otherwise if the version from dev instance was installed in PROD, the fix would be overwritten).&lt;/p&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="275" y="-280" width="365" height="280" as="geometry" />
